@@ -31,7 +31,7 @@ function calculateNumber() {
       let resultLength = 0;  
         sendNumber.forEach(element => {
         resultLength += (+element / sendNumber.length);
-        resultLength;
+        resultLength; 
       });
       let finalResult = `\nСумма чисел ${resultSum} \nСреднее арифметическое ${resultLength}
       \nНаибольшее число ${Math.max.apply(Math.max, sendNumber)}\nНаименьшее число ${Math.min.apply(Math.min, sendNumber)}`;
